@@ -1,0 +1,4 @@
+# tracer
+is_active = true
+agent_address = "127.0.0.1:5775"
+reporter_flush_interval = 1

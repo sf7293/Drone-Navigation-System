@@ -1,0 +1,50 @@
+# Only exposable errors need translation, errors without translation will use errors.internal's translation
+[[errors]]
+label = "error_title.server_is_down"
+description = "This error is shown when server is down and we show this error to users to ask them wait for us to be back"
+translation = "Server Error"
+
+[[errors]]
+label = "error_message.server_is_down"
+description = "This error is shown when server is down and we show this error to users to ask them wait for us to be back"
+translation = "We're sorry, but TeleWatch is temporarily unavailable. We are currently working to fix the problem, Please try again in a few minutes."
+
+[[errors]]
+label = "error_title.internal"
+description = "This error is shown when a problem occured in servers and we don't want to explain it to users"
+translation = "Internal Server Error"
+
+[[errors]]
+label = "error_message.internal"
+description = "This error is shown when a problem occured in servers and we don't want to explain it to users"
+translation = "We're sorry for the trouble. We've been notified of the error and will resolve it as soon as possible. Please try again in a moment."
+
+[[errors]]
+label = "error_title.unexpected"
+description = "This error is shown when an unexpected problem occured in our servers and we don't want to explain it to users"
+translation = "An error occurred"
+
+[[errors]]
+label = "error_message.unexpected"
+description = "This error is shown when an unexpected problem occured in our servers and we don't want to explain it to users"
+translation = "We're sorry for the trouble. We've been notified of the error and will resolve it as soon as possible. Please try again in a moment."
+
+[[errors]]
+label = "error_title.request_binding"
+description = "This error is shown when there is a problem with client request and client request doesn't statisfy server needed and required input parameters"
+translation = "Error"
+
+[[errors]]
+label = "error_message.request_binding"
+description = "This error is shown when there is a problem with client request and client request doesn't statisfy server needed and required input parameters"
+translation = "Invalid Request."
+
+[[errors]]
+label = "error_title.invalid_request"
+description = "This error is shown when there is a problem with client request and client request doesn't statisfy server needed and required input parameters"
+translation = "Error"
+
+[[errors]]
+label = "error_message.invalid_request"
+description = "This error is shown when there is a problem with client request and client request doesn't statisfy server needed and required input parameters"
+translation = "Invalid Request."

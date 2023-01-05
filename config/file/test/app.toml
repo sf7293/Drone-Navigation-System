@@ -1,0 +1,6 @@
+# app config
+config_version = 1
+http_port = 8080
+sector_id = 2
+server_name = "drone-navigation-server"
+mode = "dev"
