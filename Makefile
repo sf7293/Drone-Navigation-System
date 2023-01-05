@@ -37,7 +37,9 @@ test:
 	go test -v ./...
 
 docker:
-	docker build --no-cache -f Dockerfile.server -t sf7293/Drone-Navigation-System:$(VERSION) .
+	make clean
+	make build
+	docker build --no-cache -f Dockerfile -t sf7293/drone-navigation-system:$(VERSION) .
 mock:
 	mockgen -source=logic/DNSLogic.go > mocks/logic/DNSLogicInterface.go
 test:
