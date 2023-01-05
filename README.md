@@ -5,6 +5,7 @@ To run the project, Do these steps:
 - `go run main.go`
 
 This project has only one POST API, you could access it with this simple curl:
+
 `curl --location --request POST 'http://127.0.0.1:8080/v1/dns/location' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'x=0.2' \
